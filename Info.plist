@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Dave Zaikos</string>
+	<key>CFBundleDisplayName</key>
+	<string>Simplify GR</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.zaikos.simplify-gr</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.3</string>
+	<key>CFBundleVersion</key>
+	<string>5</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>global.html</string>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>js/jquery-1.5.1.min.js</string>
+				<string>fancybox/jquery.fancybox-1.3.4.pack.js</string>
+				<string>inject.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>fancybox/jquery.fancybox-1.3.4.min.css</string>
+		</array>
+		<key>Whitelist</key>
+		<array>
+			<string>http://*.google.com/reader/view/*</string>
+			<string>https://*.google.com/reader/view/*</string>
+			<string>http://*.google.ca/reader/view/*</string>
+			<string>https://*.google.ca/reader/view/*</string>
+			<string>http://*.google.de/reader/view/*</string>
+			<string>https://*.google.de/reader/view/*</string>
+			<string>http://*.google.nl/reader/view/*</string>
+			<string>https://*.google.nl/reader/view/*</string>
+			<string>http://*.google.fr/reader/view/*</string>
+			<string>https://*.google.fr/reader/view/*</string>
+			<string>http://*.google.it/reader/view/*</string>
+			<string>https://*.google.it/reader/view/*</string>
+			<string>http://*.google.co.uk/reader/view/*</string>
+			<string>https://*.google.co.uk/reader/view/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Enhances Google Reader with Helvetireader styling; opening full articles in FancyBox with Instapaper text view.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.google.com</string>
+				<string>*.google.ca</string>
+				<string>*.google.de</string>
+				<string>*.google.nl</string>
+				<string>*.google.fr</string>
+				<string>*.google.it</string>
+				<string>*.google.co.uk</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://www.zaikos.com/safari/versions.plist</string>
+	<key>Website</key>
+	<string>http://www.zaikos.com/</string>
+</dict>
+</plist>

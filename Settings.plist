@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Theme</string>
+		<key>Type</key>
+		<string>Group</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>helvetireader.2.min</string>
+		<key>Key</key>
+		<string>style</string>
+		<key>Title</key>
+		<string>Style</string>
+		<key>Titles</key>
+		<array>
+			<string>Standard</string>
+			<string>Helvetireader</string>
+			<string>Helvetireader (with People you follow)</string>
+			<string>Lucidica</string>
+			<string>Mac OS X Snow Leopard</string>
+		</array>
+		<key>Type</key>
+		<string>PopUpButton</string>
+		<key>Values</key>
+		<array>
+			<string>none</string>
+			<string>helvetireader.2.min</string>
+			<string>helvetireader.2.min-followers</string>
+			<string>lucidica.min</string>
+			<string>mac-os-x-snow-leopard.min</string>
+		</array>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>collapseread</string>
+		<key>Title</key>
+		<string>Hide subscriptions with no unread items</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>FancyBox Reading (Alt key toggles Original/Instapaper)</string>
+		<key>Type</key>
+		<string>Group</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>instapaper</string>
+		<key>Key</key>
+		<string>view</string>
+		<key>Title</key>
+		<string>Title Links Open As</string>
+		<key>Titles</key>
+		<array>
+			<string>Standard (No FancyBox)</string>
+			<string>Original Page</string>
+			<string>Instapaper Text</string>
+		</array>
+		<key>Type</key>
+		<string>PopUpButton</string>
+		<key>Values</key>
+		<array>
+			<string>none</string>
+			<string>original</string>
+			<string>instapaper</string>
+		</array>
+	</dict>
+</array>
+</plist>

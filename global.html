@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>global HTML page</title>
+<script type="text/javascript">
+
+	// Safari extension handlers.
+
+	function respondToMessage( theMessageEvent ) {
+		if ( 'style' === theMessageEvent.name || 'view' === theMessageEvent.name || 'collapseread' === theMessageEvent.name ) {
+			var theResult = safari.extension.settings.getItem( theMessageEvent.name );
+			theMessageEvent.target.page.dispatchMessage( theMessageEvent.name, theResult );
+	    }
+	}
+ 	safari.application.addEventListener( 'message', respondToMessage, false );
+</script>
+</head>
+<body>
+</body>
+</html>
